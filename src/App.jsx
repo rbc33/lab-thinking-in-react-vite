@@ -1,11 +1,13 @@
-import "./App.css";
+import './App.css'
+import ProductsPage from './pages/ProductsPage'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>React | Thinking in React</h1>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>IronStore</h1>
+			<ProductsPage />
+		</div>
+	)
 }
 
-export default App;
+export default App
